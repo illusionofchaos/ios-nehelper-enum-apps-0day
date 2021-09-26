@@ -1,6 +1,6 @@
 # nehelper enumerate installed apps 0-day (iOS 15.0)
 
-The vulnerably allows any user-installed app to determine whether any app is installed on the device given its bundle ID.
+The vulnerability allows any user-installed app to determine whether any app is installed on the device given its bundle ID.
 
 XPC endpoint "com.apple.nehelper" has a method accessible to any app that accepts bundle ID as a parameter and returns an array containing some cache UUIDs if the app with matching bundle ID is installed on the device or an empty array otherwise.
 This happens in  `-[NEHelperCacheManager onQueueHandleMessage:]` in `/usr/libexec/nehelper`.
