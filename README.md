@@ -1,5 +1,7 @@
 # nehelper enumerate installed apps 0-day (iOS 15.0)
 
+I've updated this code to avoid using Private API directly. Read more in my [blog post](https://habr.com/en/post/580272/). However, that means that now this code is iOS version-specific and possibly device model-specific. So if it doesn't work on your device, recalculate and update the offsets in `c.c` file. The original code can be found in [direct](https://github.com/illusionofchaos/ios-nehelper-enum-apps-0day/tree/direct) branch.
+
 The vulnerability allows any user-installed app to determine whether any app is installed on the device given its bundle ID.
 
 XPC endpoint "com.apple.nehelper" has a method accessible to any app that accepts bundle ID as a parameter and returns an array containing some cache UUIDs if the app with matching bundle ID is installed on the device or an empty array otherwise.
