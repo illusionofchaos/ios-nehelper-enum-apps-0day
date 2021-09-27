@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0878DD27012D990055F994 /* c.c in Sources */ = {isa = PBXBuildFile; fileRef = DF0878DC27012D990055F994 /* c.c */; };
 		DFCBF72A2641D11200203294 /* InstalledAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF7292641D11200203294 /* InstalledAppsApp.swift */; };
 		DFCBF72C2641D11200203294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF72B2641D11200203294 /* ContentView.swift */; };
 		DFCBF72E2641D11400203294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCBF72D2641D11400203294 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF0878DC27012D990055F994 /* c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c.c; sourceTree = "<group>"; };
+		DF0878DE270137A50055F994 /* c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
 		DFCBF7262641D11200203294 /* InstalledApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstalledApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCBF7292641D11200203294 /* InstalledAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledAppsApp.swift; sourceTree = "<group>"; };
 		DFCBF72B2641D11200203294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				DFCBF7322641D11400203294 /* Info.plist */,
 				DFCBF72F2641D11400203294 /* Preview Content */,
 				DFCBF7382641D12C00203294 /* InstalledApps-Bridging-Header.h */,
+				DF0878DC27012D990055F994 /* c.c */,
+				DF0878DE270137A50055F994 /* c.h */,
 			);
 			path = InstalledApps;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0878DD27012D990055F994 /* c.c in Sources */,
 				DFCBF72C2641D11200203294 /* ContentView.swift in Sources */,
 				DFCBF72A2641D11200203294 /* InstalledAppsApp.swift in Sources */,
 			);
